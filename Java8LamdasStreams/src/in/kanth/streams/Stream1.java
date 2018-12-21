@@ -29,6 +29,7 @@ public class Stream1 {
 		}
 
 		System.out.println(names);
+		
 
 		System.out.println(emplist.stream()
 				.filter(p -> p.getGender() == Gender.FEMALE)
